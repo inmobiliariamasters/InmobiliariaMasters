@@ -80,9 +80,10 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 40px;
+    gap: 10px;
 }
 .hero-logo {
-    width: 280px;
+    width: 180px;
     height: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
