@@ -55,3 +55,17 @@ nav a {
 nav a:hover {
     color: #d4af37;
 }
+.hero {
+    min-height: 80vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ), url("Imagenes/portada.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
