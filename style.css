@@ -81,3 +81,8 @@ nav a:hover {
     align-items: center;
     padding: 40px;
 }
+.hero-logo {
+    width: 280px;
+    height: auto;
+    margin-bottom: 25px;
+}
