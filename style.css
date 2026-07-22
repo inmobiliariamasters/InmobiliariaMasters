@@ -22,7 +22,7 @@ p {
     display: inline-block;
     width: 280px;
     height: 70px;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #d4af37;
     color: #0b0b0b;
     border: none;
@@ -31,6 +31,7 @@ p {
     font-weight: bold;
     cursor: pointer;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -67,7 +68,7 @@ nav a {
 nav a:hover {
     color: #d4af37;
 }
-.hero {
+..hero {
     min-height: 100vh;
     background-image: linear-gradient(
         rgba(0,0,0,0.55),
@@ -79,11 +80,24 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    gap: 10px;
+    padding: 20px;
+    text-align: center;
 }
+
 .hero-logo {
-    width: 180px;
+    width: 170px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    color: white;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #e6e6e6;
+    margin: 15px 0 25px;
 }
