@@ -36,14 +36,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+    height: 90px;
 }
 
 
 .logo img {
-    width: 80px;
+    width: 100px;
     height: auto;
+    display: block;
 }
-
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 
 nav a {
