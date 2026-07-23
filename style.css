@@ -31,11 +31,10 @@ body {
 /* LOGO CENTRAL */
 
 .hero-logo {
-    width: 220px;
+    width: 300px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
 
 /* TITULO PRINCIPAL */
 
@@ -49,10 +48,11 @@ body {
 
 /* DESCRIPCION */
 
-.hero p {
-    font-size: 22px;
-    color: #e6e6e6;
-    margin: 15px 0 25px;
+.hero h2 {
+    font-size: 44px;
+    color: white;
+    margin: 0;
+    line-height: 1.15;
 }
 
 
