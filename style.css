@@ -524,3 +524,44 @@ header {
     }
 
 }
+
+/* MENU MOVIL */
+
+.menu-toggle {
+    display: none;
+    font-size: 32px;
+    color: #d4af37;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+
+    nav {
+        display: none;
+        flex-direction: column;
+        background: #0b0b0b;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+
+    nav.active {
+        display: flex;
+    }
+
+
+    nav a {
+        padding: 15px;
+    }
+
+}
