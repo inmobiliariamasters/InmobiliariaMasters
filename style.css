@@ -21,11 +21,12 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-gap: 12px;
+    justify-content: flex-start;
+    gap: 12px;
     align-items: center;
 
     padding: 20px;
+    padding-top: 140px;
 }
 
 
@@ -91,9 +92,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 35px 0;
+    padding: 50px 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 100;
 }
 
@@ -481,6 +483,44 @@ header {
     .beneficio {
         width: 90%;
         max-width: 340px;
+    }
+
+}
+/* BOTON MENU */
+
+.menu-toggle {
+
+    display: none;
+
+    position: absolute;
+
+    right: 30px;
+
+    top: 30px;
+
+    font-size: 34px;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+/* VERSION MOVIL */
+
+@media (max-width:768px){
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+    nav{
+
+        display:none;
+
     }
 
 }
