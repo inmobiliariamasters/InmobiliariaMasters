@@ -426,3 +426,61 @@ header {
     margin: 20px auto;
 
 }
+
+/* ========================= */
+/* VERSION MOVIL */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+    }
+
+    nav a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .hero-logo {
+        width: 180px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero button {
+        width: 230px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 340px;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficio {
+        width: 90%;
+        max-width: 340px;
+    }
+
+}
